@@ -241,29 +241,69 @@ main .lado1 {
     border: 1px solid #76777A;
 }
 
+.outra_area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-.outra-area div{
+.outra_area div img{
     /* Estilize a nova área conforme necessário */
+    width: 100px;
+    height: 200px;
+    margin: 8px;
+    object-fit: contain;
     margin-top: 20px;
+    border-radius: 20px;
+    transition: all 1s ease;
+}
+
+.outra_area div img:hover {
+    width: 105px;
+    height: 205px;
+    cursor: pointer;
 }
 
 
 
+.centro {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 584px;
+    height: 120px;
+    padding: 20px;
+    margin-top: 19px;
+    background-color: #242526;
+    /* border-radius: 15px; */
+}
 
+.centro .perfil img {
+    margin-top: 5px;
+    width: 30px;
+}
 
+.pensamento input {
+    width: 500px;
+    height: 34px;
+    margin: 8px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #4E4F50;
+    color: #B4B7BB;
+    font-size: 18px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.vd {
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    width: 584px;
+    height: 120px;
+    background-color: #242526;
+    color: #fff;
+}
 
 
 
