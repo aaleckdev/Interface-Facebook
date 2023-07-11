@@ -175,21 +175,105 @@ main .lado1 {
 .borda {
     width: 332px;
     margin: 3px;
-    border: 1px solid #ccc;
+    border: 1px solid #76777A;
 }
 
 
-/* main .lado2 {
-    flex: 1;
-}
- */
 
-.lado2{
+.lado2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 584px;
     height: 290px;
+    border-radius: 15px;
     background-color: #242526;
     margin-top: 20px;
 }
+
+.meio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meio-container .meio {
+    width: 80px;
+    height: 40px;
+    margin: 5px;
+}
+
+
+.lado2 .meio {
+    width: 291px;
+    height: 40px;
+    margin: 5px;
+    flex: 1;
+}
+
+
+.meio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.meio img {
+    width: 30px;
+}
+
+.meio p {
+    margin-left: 8px;
+    color: #2D77D7;
+    font-weight: bold;
+}
+
+.meio .p_reels {
+    color: #76777A;
+    font-weight: bold;
+}
+
+
+.borda2 {
+    width: 100%;
+    border: 1px solid #76777A;
+}
+
+
+.outra-area div{
+    /* Estilize a nova área conforme necessário */
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
