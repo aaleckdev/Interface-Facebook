@@ -307,38 +307,82 @@ main .lado1 {
 
 
 
+.part_baixo {
+    display: flex;
+    align-items: center;
+    width: 584px;
+    /* height: 796px; */
+    margin: 5px;
+    margin-top: 10px;
+    background-color: #242526;
+    color: #fff;
+}
+
+.part_baixo h2 {
+    font-size: 15px;
+    margin: 8px;
+}
+
+.part_baixo img {
+    width: 30px;
+}
 
 
+.grupo {
+    display: flex;
+    margin: 5px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.post {
+    width: 584px;
+}
 
 
 
 .lado3 {
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
     margin-top: 20px;
-    margin-left: 128px;
+    width: 100px;
+    margin-left: 180px;
     width: 340px;
     /* background-color: var(--bg-color); */
-    background-color:tomato;
+    /* background-color: #242526; */
     color: #fff;
-    flex: 1;
+    flex: 1;;
+}
+
+.lado3 img {
+    width: 30px;
+}
+
+/* .contatos_lateral {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+} */
+
+
+
+.contatos_lateral {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+}
+  
+.contato {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.contato p {
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
 }
